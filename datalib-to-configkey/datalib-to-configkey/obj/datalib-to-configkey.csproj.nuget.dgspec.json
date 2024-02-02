@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Janidu Lankage\\Documents\\GitHub\\datalib-to-configkey\\datalib-to-configkey\\datalib-to-configkey\\datalib-to-configkey.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Janidu Lankage\\Documents\\GitHub\\datalib-to-configkey\\datalib-to-configkey\\datalib-to-configkey\\datalib-to-configkey.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Janidu Lankage\\Documents\\GitHub\\datalib-to-configkey\\datalib-to-configkey\\datalib-to-configkey\\datalib-to-configkey.csproj",
+        "projectName": "datalib-to-configkey",
+        "projectPath": "C:\\Users\\Janidu Lankage\\Documents\\GitHub\\datalib-to-configkey\\datalib-to-configkey\\datalib-to-configkey\\datalib-to-configkey.csproj",
+        "packagesPath": "C:\\Users\\Janidu Lankage\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Janidu Lankage\\Documents\\GitHub\\datalib-to-configkey\\datalib-to-configkey\\datalib-to-configkey\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Janidu Lankage\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://10.23.123.29/qtxnuget/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0-windows7.0": {
+            "targetAlias": "net7.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0-windows7.0": {
+          "targetAlias": "net7.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Serilog": {
+              "target": "Package",
+              "version": "[3.1.2-dev-02097, )"
+            },
+            "Serilog.Settings.Configuration": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
