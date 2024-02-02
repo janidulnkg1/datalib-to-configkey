@@ -146,9 +146,8 @@ namespace datalib_to_configkey
             lblDT.AutoSize = true;
             lblDT.Location = new Point(10, 7);
             lblDT.Name = "lblDT";
-            lblDT.Size = new Size(30, 15);
+            lblDT.Size = new Size(0, 15);
             lblDT.TabIndex = 9;
-            lblDT.Text = "date";
             // 
             // label1
             // 

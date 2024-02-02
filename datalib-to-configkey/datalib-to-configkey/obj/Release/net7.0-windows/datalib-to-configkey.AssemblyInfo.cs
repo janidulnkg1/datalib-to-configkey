@@ -12,9 +12,9 @@ using System;
 using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("datalib-to-configkey")]
-[assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
+[assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4ba49adb78bf66fce0f3c7a4b08bc2f0587dbee0")]
 [assembly: System.Reflection.AssemblyProductAttribute("datalib-to-configkey")]
 [assembly: System.Reflection.AssemblyTitleAttribute("datalib-to-configkey")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
