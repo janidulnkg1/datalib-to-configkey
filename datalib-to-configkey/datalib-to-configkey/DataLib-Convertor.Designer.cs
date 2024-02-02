@@ -105,9 +105,9 @@ namespace datalib_to_configkey
             lblSelectedFile.AutoSize = true;
             lblSelectedFile.Location = new Point(125, 28);
             lblSelectedFile.Name = "lblSelectedFile";
-            lblSelectedFile.Size = new Size(77, 15);
+            lblSelectedFile.Size = new Size(91, 15);
             lblSelectedFile.TabIndex = 3;
-            lblSelectedFile.Text = "Not Selected.";
+            lblSelectedFile.Text = "No file selected.";
             // 
             // btnBrowse
             // 

@@ -1,6 +1,7 @@
 using Microsoft.Extensions.Configuration;
 using Serilog;
 using System.Configuration;
+using System.Diagnostics;
 
 namespace datalib_to_configkey
 {
@@ -64,33 +65,59 @@ namespace datalib_to_configkey
         {
             string? outputFilePath = configuration["CsvProcessorSettings:OutputTextFilePath"];
 
-            try
+            if (selectedFilePath != "No file selected.")
             {
-                string[] lines = File.ReadAllLines(selectedFilePath);
 
-                if (lines.Length > 1)
+                try
                 {
-                    string header = lines[0];
-                    IEnumerable<string> secondColumnValues = lines.Skip(1)
-                        .Select(line => line.Split(',')[1].Trim());
+                    string[] lines = File.ReadAllLines(selectedFilePath);
 
-                    IEnumerable<string> formattedOutput = secondColumnValues
-                        .Select(value => $"<add key=\"enable.redirect.{value.ToLower()}\" value=\"true\"/>");
+                    if (lines.Length > 1)
+                    {
+                        string header = lines[0];
+                        IEnumerable<string> secondColumnValues = lines.Skip(1)
+                            .Select(line => line.Split(',')[1].Trim());
 
-                    File.WriteAllLines(outputFilePath, formattedOutput);
+                        IEnumerable<string> formattedOutput = secondColumnValues
+                            .Select(value => $"<add key=\"enable.redirect.{value.ToLower()}\" value=\"true\"/>");
 
-                    Log.Information($"Output written to: {outputFilePath}");
-                    lblOutput.Text = outputFilePath;
+                        File.WriteAllLines(outputFilePath, formattedOutput);
+
+                        Log.Information($"Output written to: {outputFilePath}");
+                        lblOutput.Text = outputFilePath;
+
+                        MessageBox.Show("Processing Successful! Click Output Filepath to check processed file!", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        //Click event for lblOutput
+                        lblOutput.Click += (lblSender, lblEventArgs) =>
+                        {
+                            // Open the directory containing the file
+                            string directoryPath = Path.GetDirectoryName(outputFilePath);
+                            if (!string.IsNullOrEmpty(directoryPath) && Directory.Exists(directoryPath))
+                            {
+                                Process.Start("explorer.exe", directoryPath);
+                            }
+                        };
+                    }
+                    else
+                    {
+
+                        Log.Error("The input file is empty or contains only headers!");
+                        MessageBox.Show("The input file is empty or contains only headers.!", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    }
                 }
-                else
+                catch (Exception ex)
                 {
-                    Log.Error("The CSV file is empty or contains only headers.");
+                    Log.Error($"An error occurred: {ex.Message}");
+                    MessageBox.Show($"An error occurred: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-            catch (Exception ex)
+            else if (selectedFilePath == "No file selected.")
             {
-                Log.Error($"An error occurred: {ex.Message}");
+                MessageBox.Show("No file have been selected. Please select the correct file.", "Warning", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
             }
+
+            
 
         }
 
