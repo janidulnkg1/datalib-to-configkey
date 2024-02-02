@@ -53,16 +53,16 @@ namespace datalib_to_configkey
             panel1.Controls.Add(label2);
             panel1.Controls.Add(lblSelectedFile);
             panel1.Controls.Add(btnBrowse);
-            panel1.Location = new Point(30, 95);
+            panel1.Location = new Point(12, 95);
             panel1.Name = "panel1";
-            panel1.Size = new Size(538, 215);
+            panel1.Size = new Size(566, 215);
             panel1.TabIndex = 0;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(26, 160);
+            label3.Location = new Point(9, 160);
             label3.Name = "label3";
             label3.Size = new Size(189, 21);
             label3.TabIndex = 7;
@@ -71,7 +71,7 @@ namespace datalib_to_configkey
             // lblOutput
             // 
             lblOutput.AutoSize = true;
-            lblOutput.Location = new Point(222, 164);
+            lblOutput.Location = new Point(199, 164);
             lblOutput.Name = "lblOutput";
             lblOutput.Size = new Size(89, 15);
             lblOutput.TabIndex = 6;
@@ -94,7 +94,7 @@ namespace datalib_to_configkey
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label2.Location = new Point(26, 24);
+            label2.Location = new Point(9, 24);
             label2.Name = "label2";
             label2.Size = new Size(92, 21);
             label2.TabIndex = 4;
@@ -103,7 +103,7 @@ namespace datalib_to_configkey
             // lblSelectedFile
             // 
             lblSelectedFile.AutoSize = true;
-            lblSelectedFile.Location = new Point(125, 28);
+            lblSelectedFile.Location = new Point(102, 28);
             lblSelectedFile.Name = "lblSelectedFile";
             lblSelectedFile.Size = new Size(91, 15);
             lblSelectedFile.TabIndex = 3;

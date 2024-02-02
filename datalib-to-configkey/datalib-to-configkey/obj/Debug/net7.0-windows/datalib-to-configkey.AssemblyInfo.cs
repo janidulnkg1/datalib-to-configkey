@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("datalib-to-configkey")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2d792cb8ab022fb846566e539f2fb95c93716d1b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70b32ec57a3681f94d78a0a197d2740714b7246f")]
 [assembly: System.Reflection.AssemblyProductAttribute("datalib-to-configkey")]
 [assembly: System.Reflection.AssemblyTitleAttribute("datalib-to-configkey")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
