@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ww/ISdZr0dC2Pun14fHlrtcriyJT1iAIspWjkHe7QRWaiRcRYXFcb4F45j19YPBb4S4+90r43rKkJc7zvJJJ9A==",
+  "dgSpecHash": "iNwhnwxxQRTsN0oQiXf0wLKShi/9xKuIrMcTaPUClbWLaGv/OIF+jCNlxZM66Ltk6MQhq7tEYn8Npr3aPX/XNg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Janidu Lankage\\Documents\\GitHub\\datalib-to-configkey\\datalib-to-configkey\\datalib-to-configkey\\datalib-to-configkey.csproj",
   "expectedPackageFiles": [
@@ -17,6 +17,7 @@
     "C:\\Users\\Janidu Lankage\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Janidu Lankage\\.nuget\\packages\\serilog\\3.1.2-dev-02097\\serilog.3.1.2-dev-02097.nupkg.sha512",
     "C:\\Users\\Janidu Lankage\\.nuget\\packages\\serilog.settings.configuration\\8.0.0\\serilog.settings.configuration.8.0.0.nupkg.sha512",
+    "C:\\Users\\Janidu Lankage\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\Janidu Lankage\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Janidu Lankage\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
   ],

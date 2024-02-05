@@ -34,3 +34,4 @@ C:\Users\Janidu Lankage\Documents\GitHub\datalib-to-configkey\datalib-to-configk
 C:\Users\Janidu Lankage\Documents\GitHub\datalib-to-configkey\datalib-to-configkey\datalib-to-configkey\bin\Debug\net7.0-windows\runtimes\browser\lib\net7.0\System.Text.Encodings.Web.dll
 C:\Users\Janidu Lankage\Documents\GitHub\datalib-to-configkey\datalib-to-configkey\datalib-to-configkey\obj\Debug\net7.0-windows\datalib-to-configkey.csproj.AssemblyReference.cache
 C:\Users\Janidu Lankage\Documents\GitHub\datalib-to-configkey\datalib-to-configkey\datalib-to-configkey\obj\Debug\net7.0-windows\datalib-to-configkey.csproj.CopyComplete
+C:\Users\Janidu Lankage\Documents\GitHub\datalib-to-configkey\datalib-to-configkey\datalib-to-configkey\bin\Debug\net7.0-windows\Serilog.Sinks.File.dll
